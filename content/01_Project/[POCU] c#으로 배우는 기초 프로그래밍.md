@@ -6,8 +6,6 @@ kanban-plugin: board
 
 ## BACKLOG
 
-- [ ] Recursive Function
-- [ ] String Slice
 - [ ] Again! Function
 - [ ] Collection
 - [ ] OOP Basic
@@ -26,9 +24,12 @@ kanban-plugin: board
 - [ ] Switch 📅 2025-09-01
 - [ ] Array 📅 2025-09-01
 - [ ] Loop 📅 2025-09-01
-- [ ] Function 📅 2025-09-04
-- [ ] Enum 📅 2025-09-05
-- [ ] Assert 📅 2025-09-05
+- [ ] Function 📅 2025-09-02
+- [ ] Enum 📅 2025-09-03
+- [ ] Assert 📅 2025-09-03
+- [ ] Recursive Function 📅 2025-09-04
+- [ ] String Slice
+- [ ] Array 2 📅 2025-09-05
 
 
 ## IN PROGRESS
