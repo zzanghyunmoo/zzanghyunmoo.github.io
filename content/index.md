@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: 짱현무의 기술 블로그입니다.
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+안녕하세요 짱현무의 기술 블로그에 오신 것을 환영합니다.
