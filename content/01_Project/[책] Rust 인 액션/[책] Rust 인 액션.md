@@ -6,6 +6,7 @@ kanban-plugin: board
 
 ## BACKLOG
 
+- [ ] [[1장 러스트 소개]]
 - [ ] 2장 러스트 언어의 기초
 - [ ] 3장 복합 데이터 타입
 - [ ] 4장 수명, 소유권, 대여
@@ -21,7 +22,6 @@ kanban-plugin: board
 
 ## TODO
 
-- [ ] [[1장 러스트 소개]] 📅 2025-09-28
 
 
 ## INPROGRESS
