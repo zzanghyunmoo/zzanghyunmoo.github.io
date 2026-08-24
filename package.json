@@ -10,7 +10,8 @@
     "astro": "astro",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test:knowledge": "node scripts/test-knowledge.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.14",

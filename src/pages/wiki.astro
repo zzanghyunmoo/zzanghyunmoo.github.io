@@ -1,0 +1,46 @@
+---
+import { getCollection } from "astro:content";
+import Card from "@/components/Card.astro";
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/layouts/Main.astro";
+import getPostsByTag from "@/utils/getPostsByTag";
+import { SITE } from "@/config";
+
+const posts = await getCollection("blog", ({ data }) => !data.draft);
+const wikiPosts = getPostsByTag(posts, "wiki");
+---
+
+<Layout title={`Wiki | ${SITE.title}`}>
+  <Header />
+  <Main
+    pageTitle="Wiki"
+    pageDesc="완성된 기술 개념과 운영 기록을 주제별로 축적합니다."
+  >
+    {
+      wikiPosts.length > 0 ? (
+        <ul>
+          {wikiPosts.map(post => (
+            <Card {...post} />
+          ))}
+        </ul>
+      ) : (
+        <div class="space-y-3">
+          <p>아직 공개된 Wiki 글이 없습니다.</p>
+          <p>
+            <a class="text-accent underline decoration-dashed" href="/posts">
+              전체 글
+            </a>
+            이나
+            <a class="text-accent underline decoration-dashed" href="/search">
+              검색
+            </a>
+            에서 다른 기록을 찾아보세요.
+          </p>
+        </div>
+      )
+    }
+  </Main>
+  <Footer />
+</Layout>
