@@ -9,6 +9,7 @@ tags:
   - kubernetes
   - observability
   - ai-platform
+  - wiki
 description: macOS와 Windows에 Linux 실행면을 만들고 k3s, ClickStack, Langfuse, LiteLLM을 올린 개인용 AI 플랫폼의 전체 설계와 검증 범위를 정리한다.
 ---
 
